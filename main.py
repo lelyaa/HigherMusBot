@@ -49,19 +49,19 @@ def main_handler(msg):
         elif text == '/help':
             bot.send_message(chat_id, Const.msg_help_text, parse_mode = 'HTML')
         else:
-            #Все состояния:
-            #primary_state
-            #first_choice
-            #create_playlist
-            #fill_playlis
-            #choice_playlist
-            #playlist_menu
-            #rename_playlist
-            #extend_playlist
-            #approve_del_playlist
-            #choice_track
-            #track_menu
-            #approve_del_track
+            # Все состояния:
+            # primary_state
+            # first_choice
+            # create_playlist
+            # fill_playlis
+            # choice_playlist
+            # playlist_menu
+            # rename_playlist
+            # extend_playlist
+            # approve_del_playlist
+            # choice_track
+            # track_menu
+            # approve_del_track
 
         state = utils.return_state(chat_id)
 
